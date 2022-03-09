@@ -12,3 +12,4 @@
 
 <script src="myscripts.js"></script>
 Didnt know the tag wasn't open-ended.
+use './'  or your js files will not run. 
