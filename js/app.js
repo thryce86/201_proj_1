@@ -1,5 +1,16 @@
 `use strict`
 let score = 0 ; 
+in1 = q1();
+q2();
+q3();
+q4();
+q5();
+q6();
+q7();
+
+
+
+function q1(){
 let in1 = prompt('Heya there!\nWhat\'s your name?');
 
 let ans1 = prompt("Do you like pineapples?");
@@ -20,6 +31,11 @@ let temp=ans1.toLowerCase();
   }
 
 
+  return in1;
+}// eofun1
+
+function q2(){
+
   let ans2 = prompt("Is Chuck Norris better than David Hasselhoff?");
   // console.log(`Ans 2 is ${ans2}`);
 
@@ -36,9 +52,9 @@ let temp=ans1.toLowerCase();
       // console.log('Invalid Input.');
       alert('Invalid Input.');
     }
+  }
 
-
-
+function q3(){
   let ans3 = prompt("Was Chuck Norris a school teacher before he was famous?");
   // console.log(`Ans 3 is ${ans3}`);
 
@@ -55,9 +71,9 @@ let temp=ans1.toLowerCase();
       // console.log('Invalid Input.');
       alert('Invalid Input.');
     }
+  }
 
-
-
+function q4(){
   let ans4 = prompt("Is it legal for 4 women to live in a house in Ohio?");
   // console.log(`Ans 4 is ${ans4}`);
   // yes 5 or more is illegal
@@ -77,7 +93,9 @@ let temp=ans1.toLowerCase();
       alert('Invalid Input.');
     }
 
+  }
 
+  function q5(){
 
   let ans5 = prompt("Were these questions utterly irrelevant?");
   // console.log(`Ans 5 is ${ans5}`);
@@ -94,7 +112,11 @@ let temp=ans1.toLowerCase();
     // alert('Invalid input');
     alert('Invalid Input.');
   }
+  }
 
+
+
+  function q6(){
 
 let i=0; //atempts
 
@@ -129,11 +151,11 @@ while (i < 4) {
     }
 }
 
-
+  }
 
 
 // // 7
-
+function q7(){
 let attempts = 0;
 let answers = [1,6]; // correct answer  
 // let temp = 0;
@@ -164,6 +186,8 @@ while(attempts < 6){
 }// end while
  alert(`All of the correct answers are France and Ukraine. \nYour total score is ${score} out of 7.` ) ;
  alert(`Thanks ${in1}! Hope you have a great one ;). `)
+
+}
 
 
 
